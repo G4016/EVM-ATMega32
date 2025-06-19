@@ -1,8 +1,8 @@
-Electronic Voting Machine (EVM) Using ATMega32 Microcontroller
+#Electronic Voting Machine (EVM) Using ATMega32 Microcontroller
 Welcome to our Electronic Voting Machine (EVM) project, built using the ATMega32 microcontroller! This project was developed by Team 11 as a secure and efficient voting system with a user-friendly interface, candidate selection, vote counting, and result display. It’s designed to enhance the voting process for elections, ensuring accuracy and ease of use.
 
 
-Project Overview
+#Project Overview
 The EVM allows voters to cast their votes securely using a keypad and displays results on an LCD. It features:
 
 PIN Authentication: Ensures only authorized voters can cast votes.
@@ -17,14 +17,14 @@ Ganesh N (01FE22BCS194)
 Gautam N (01FE22BCS219)
 Appu S C (01FE22BCS274)
 
-Features
+#Features
 
 Secure voting with a 4-digit voter PIN and master key for result access.
 4x4 keypad for input and 16x2 LCD for output.
 Real-time vote counting and winner determination.
 User-friendly interface with clear prompts and feedback.
 
-Hardware Requirements
+#Hardware Requirements
 
 ATMega32 microcontroller
 16x2 LCD display
@@ -33,13 +33,13 @@ Crystal oscillator (8 MHz)
 Basic components (resistors, capacitors, etc.)
 AVR programmer (e.g., USBasp)
 
-Software Requirements
+#Software Requirements
 
 AVR-GCC compiler
 AVRDude for programming the ATMega32
 IDE like AVR Studio or PlatformIO
 
-Setup Instructions
+#Setup Instructions
 
 (1)Hardware Setup:
 
@@ -74,7 +74,7 @@ Master users can choose to display total votes or the winner.
 
 
 
-Project Structure
+#Project Structure
 EVM-ATMega32/
 ├── src/
 │   └── evm.c             # Main source code
@@ -86,7 +86,7 @@ EVM-ATMega32/
 ├── LICENSE               # MIT License
 └── .gitignore            # Git ignore file
 
-Code Explanation
+#Code Explanation
 The code (src/evm.c) implements:
 
 LCD Functions: Initialize and display text on a 16x2 LCD.
